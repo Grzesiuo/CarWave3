@@ -176,6 +176,14 @@ namespace CarWave
 
             flota.DodajAuto(new Auto("BMW", "M3 Competition", 2022, 900, 5000, GenerujWarszawskaRejestracje()));
             flota.DodajAuto(new Auto("Mercedes", "AMG GT 63S", 2021, 1100, 7000, GenerujWarszawskaRejestracje()));
+            flota.DodajAuto(new Auto("BMW", "M5 Competition", 2022, 1200, 7500, GenerujWarszawskaRejestracje()));
+            flota.DodajAuto(new Auto("Audi", "RS6 Avant", 2021, 1300, 7200, GenerujWarszawskaRejestracje()));
+            flota.DodajAuto(new Auto("Porsche", "911 Carrera S", 2020, 1000, 6800, GenerujWarszawskaRejestracje()));
+            flota.DodajAuto(new Auto("Lexus", "LC 500", 2023, 1100, 7900, GenerujWarszawskaRejestracje()));
+            flota.DodajAuto(new Auto("Jaguar", "F-Type R", 2019, 1150, 7100, GenerujWarszawskaRejestracje()));
+            flota.DodajAuto(new Auto("Ford", "Transit Custom", 2020, 1500, 5000, GenerujWarszawskaRejestracje()));
+            flota.DodajAuto(new Auto("Toyota", "Sienna", 2022, 1300, 6000, GenerujWarszawskaRejestracje()));
+            flota.DodajAuto(new Auto("Jeep", "Wrangler Rubicon", 2021, 1100, 7000, GenerujWarszawskaRejestracje()));
 
             Console.WriteLine("*** CARWAVE ***\nLogin:");
             if (Console.ReadLine() == "Grzegorz" && Console.ReadLine() == "35744")
